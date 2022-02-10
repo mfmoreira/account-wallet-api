@@ -1,0 +1,10 @@
+version : '3'
+services :
+  accountspringapp :
+    build : .
+    ports :
+      - "8090:8090"
+networks: 
+  default: 
+    external: 
+      name: wallet-network 
