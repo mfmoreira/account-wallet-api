@@ -16,6 +16,7 @@ O Wallet API foi criado com:
  - MySQL
  - Dockerfile
  - Swagger
+ - RestTemplate
 
 # Arquitetura
 Containers : 
