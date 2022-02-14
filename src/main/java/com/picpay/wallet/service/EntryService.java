@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
@@ -63,7 +64,7 @@ public class EntryService {
 		throw new AccountNotFoundException(entryRequest.getAccount().getId());
 	}
 
-	@Transactional
+	@Async
 	public void transfer(TransferRequest transferRequest) throws InsufficientFundsException {
 		Entry entryOrigin = new Entry();
 		Entry entryDestination = new Entry();
