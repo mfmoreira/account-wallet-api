@@ -25,6 +25,8 @@ Containers :
 
 O projeto Wallet API está divido nas seguintes camadas:
 
+![alt text](https://github.com/mfmoreira/account-wallet-api/blob/main/img/wallet-picpay.drawio.png?raw=true)
+
 main/java:
 
 - Component
@@ -38,9 +40,6 @@ main/java:
 - Model
 - Repository
 - Request
-- Service
-
-test:
 - Service
 
 # Getting Started
