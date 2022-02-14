@@ -50,22 +50,6 @@ mvn clean install
 
 Tendo o docker instalado em sua máquina:
 
-#App user-wallet-picpay
-
-Entrar no diretório no projeto:
-cd Docker/
-
-Criar a rede:
-docker network create wallet-network
-
-Executar o comando:
-docker-compose up –-build
-
--- Construindo o Spring Boot e a imagem MYSQL juntos
-
-- Acessar o Swagger para uso dos endpoints
-http://localhost:8082/swagger-ui.html#/
-
 #App account-wallet-picpay
 
 Entrar no diretório no projeto:
